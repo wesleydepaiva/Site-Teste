@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* Versão mobile */
+
+/*Aqui eu estou dizendo que minha versão mobile tem que ter estas configurações */
+
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Alguns comandos para a divboss */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #0E1E42;
+    padding: 15px;
+}
+
+.header > img {
+    height: 35px;
+    width: 75px;
+    margin: auto;
+}
+
+.header-right{
+    float: none;
+    
+}
+
+.header a {
+    display: block;
+    float: none;  
+    color: #E4E2E7;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Estilos da dobra 1 - home */
+
+.dobra1-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px 0px 20px;
+    text-align: center;
+}
+
+.dobra1-home > h3 {
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+}
+
+.dobra1-home > button {
+    border-radius: 20px;
+    background-color: rgb(255, 144, 1);
+    color: white;
+    width: 320px;
+    height: 60px;
+    margin: auto;
+    font-size: 23px;
+    align-self: center;
+    border: none;
+}
+
+.dobra1-home > img {
+    width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+
+/* Estilos dobra 2 - Quem sou eu*/
+
+.dobra2-sobremim {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0E1E42;
+}
+
+.dobra2-sobremim > h1 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.dobra2-sobremim > p {
+    color: white;
+    padding-top: 10px;
+}
+
+.dobra2-sobremim > img {
+    width: 300px;
+    margin: auto;
+}
+
+/*Estilos dobra 3 - Hobbies */
+
+.dobra3-hobbies {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.dobra3-hobbies > h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.hobbiebox {
+    width: 90%;
+    height: auto;
+    background-color: #0E1E42;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.hobbiebox h1 {
+    color: white;
+}
+
+.hobbiebox p {
+    color: white;
+}
+
